@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RFinch</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#default" class="name">
+        <h1>Robyn Finch</h1>
+      </a>
+      <div class="header-right">
+        <a class="active" href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div>
+      <section id="container">
+        <div id="division">
+          <h2>Contact</h2>
+          <HR />
+          <div class="container">
+            <form action="action_page.php">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="firstname"
+                name="fullname"
+                placeholder="John Smith"
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+              />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Leave a Message"
+                style="height:200px"
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <div id="footer-border"></div>
+      <footer>Copyright &copy; 2019</footer>
+    </div>
+  </body>
+</html>
